@@ -1,0 +1,21 @@
+﻿git 연동방법
+
+1. git bash 프로그램 실행
+
+2. git bash 프로그램 실행 후 커맨드 라인에서 워크스페이스 경로로 이동
+ex)
+cd d:\workspace\caferam
+
+3. git bash 프로그램에서 아래의 명령어를 작성 후 엔터
+ex)
+git clone https://github.com/cafefarm/document.git
+
+4. 워크스페이스를 확인해보면 document 폴더가 생성되었는지 확인
+
+5. vsCode에서 explorer를 열고 document하위에 테스트용 소스를 작성
+
+6. vsCode에서 source control을 열고 생성한 테스트용 소스를 선택 후 commit
+
+7. source control: git 메뉴 우측 ... 메뉴를 클릭하고 push.
+
+완료!
